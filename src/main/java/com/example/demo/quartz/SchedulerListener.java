@@ -25,7 +25,7 @@ public class SchedulerListener implements ApplicationListener<ContextRefreshedEv
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		try {
 			List<JobConfig> list = configRepository.findAll();
-			myScheduler.addJobs(list);
+//			myScheduler.addJobs(list);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

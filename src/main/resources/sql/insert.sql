@@ -1,0 +1,5 @@
+insert into job_config(id,job_name,job_group,job_desc,job_cron,job_type,job_status,create_time,update_time) values(1,'job1','1','定时任务1-发送数据','0/5 * * * * ?','data','1','2018-07-25 10:49:09','2018-07-25 10:49:09');
+insert into job_config(id,job_name,job_group,job_desc,job_cron,job_type,job_status,create_time,update_time) values(2,'job2','1','定时任务2-解析结果','0/5 * * * * ?','result','1','2018-07-25 10:49:09','2018-07-25 10:49:09');
+insert into job_config(id,job_name,job_group,job_desc,job_cron,job_type,job_status,create_time,update_time) values(3,'job3','2','定时任务3-发送数据','0/5 * * * * ?','data','1','2018-07-25 10:49:09','2018-07-25 10:49:09');
+insert into job_config(id,job_name,job_group,job_desc,job_cron,job_type,job_status,create_time,update_time) values(4,'job4','2','定时任务4-解析结果','0/5 * * * * ?','result','1','2018-07-25 10:49:09','2018-07-25 10:49:09');
+insert into job_config(id,job_name,job_group,job_desc,job_cron,job_type,job_status,create_time,update_time) values(5,'job5','2','定时任务5-上传语音文件','0/5 * * * * ?','wav','1','2018-07-25 10:49:09','2018-07-25 10:49:09');

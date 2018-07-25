@@ -111,6 +111,11 @@ public class JobConfig {
 		this.updateTime = updateTime;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "JobConfig [id=" + id + ", jobCron=" + jobCron + ", jobName=" + jobName + ", jobGroup=" + jobGroup
+				+ ", jobType=" + jobType + ", jobDesc=" + jobDesc + ", jobStatus=" + jobStatus + ", createTime="
+				+ createTime + ", updateTime=" + updateTime + "]";
+	}
 	
 }
